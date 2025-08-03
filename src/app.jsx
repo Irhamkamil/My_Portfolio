@@ -1,12 +1,10 @@
-import React from "react";
+import Hero from "./sections/Hero";
 
 const app = () => {
   return (
-    <main>
-      <div>
-        <h1 className="text-3xl underline">Welcome To My Portfolio!</h1>
-      </div>
-    </main>
+    <>
+      <Hero />
+    </>
   );
 };
 
